@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 25px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+#bgBox {
+  width: 300px;
+  height: 200px;
+  background-image: url('https://via.placeholder.com/300x200.png?text=Eredeti');
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  margin: 50px auto;
+  transition: background-image 0.3s ease-in-out;
+}
